@@ -1,0 +1,9 @@
+The Sales Prediction project aims to forecast the sales of a retail store using historical sales data 
+
+Steps done in the task:
+1. Read the dataset- advertising.csv
+2. Data Exploration and preprocessing- statistical description of the dataframe, check for null values
+3. Data Visualization- scatter plot of features vs target variable, boxplot to check for outliers
+4. Model Selection and Training- Linear regression
+5. Model Evaluation- score
+6. Predict the sales value by giving the input for tv, radio and newspaper
