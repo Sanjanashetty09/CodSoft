@@ -1,0 +1,12 @@
+The Movie Rating Prediction task aims to develop a model that accurately estimates movie ratings based on various features from the three datasets-movies, ratings and users.
+
+Steps done in the task:
+1. Read the three datasets which is in .dat format using the encoding in latin1 and delimiter '::' to a proper dataframe. Also provide with the column names.
+2. The three dataframes are then merged based on the movie id and user id.
+3. Data preprocessing and exploration- finding the statistical features fromt the new dataset, creating new features like year from the movie name column, created a new dataset to display the
+average rating of each movie.
+4. Data Visualization- t10 movies with highest and lowest rating, rate distribution using line chart, top 10 genres, age distribution using histogram.
+5. Correlation matrix- to find out the realation strength between the features and the target variable(rating).
+6. Encoding Categorical columns
+7. Model Selection and Training- Linear Regression
+8. Model Evaluation- mean squared error
