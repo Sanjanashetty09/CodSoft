@@ -1,0 +1,14 @@
+The Titanic Survival Prediction task aims to predict the survival status of passengers on the Titanic based on various features such as age, gender, passenger class, and fare. 
+The dataset used for this analysis contains information on Titanic passengers, including those who have survived and those who did not(target variable).
+(Binary classification)
+
+Steps done in the task:
+1. Read the dataset
+2. Data Exploration and Preprocessing- found out the total number of data, information, descriptive statistics of the dataframe, check for null values and handle them
+3. Encoding for categorical data- using LabelEncoder, using the get_dummies from panda
+4. Data Visualization:
+     (i) Plot of number of males and females present onboard and number of them survived- this plot shows that none of the males onboard have survived and all the females survived
+    (ii) Age distribution of passengers using histogram- from this graph we can conclude which age group of passengers were in large number
+   (iii) Count of passengers based on the Class column- this represents on how survival was dependent on the Class of the passenger
+5. Model Selection and Training- used two machine learning algorithms: Logistic Regression and RandomForest Classifier
+6. Model Evaluation- accuracy score and classification report
