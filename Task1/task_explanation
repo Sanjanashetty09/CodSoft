@@ -1,5 +1,5 @@
-The Titanic Survival Prediction task aims to predict the survival status of passengers on the Titanic based on various features such as age, gender, passenger class, and fare. 
-The dataset used for this analysis contains information on Titanic passengers, including those who have survived and those who did not(target variable).
+The Titanic Survival Prediction task aims to predict the survival status of passengers on the Titanic based on various features such as name,age, gender, passenger class, siblings/spouse, parch, ticket,
+embarked, cabin and fare. The dataset used for this analysis contains information on Titanic passengers, including those who have survived and those who did not(target variable).
 (Binary classification)
 
 Steps done in the task:
