@@ -1,0 +1,10 @@
+The Iris Flower Classification task aims to classify Iris flowers into their respective species based on four features: SepalLengthCm, SepalWidthCm, PetalLengthCm, and PetalWidthCm. 
+The three species to be classified are Iris-setosa, Iris-versicolor, and Iris-virginica.
+
+Steps done in the task:
+1. Get and read the dataset
+2. Data Exploration and Preprocessing- statistical features of the dataframe, check for null values, count of the target variable(species)
+3. Data Visualization- pairplot for the entire dataframe, heatmap to find the features that are directly related to each other
+4. Model Selection and Training- Decision Tree Classifier
+5. Model Evaluation- accuracy score and classification report
+6. Predicting the specied by giving the values for sepal length , sepal width , petal length and petal width
